@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    background-image:url(../Obrazy/tlostrony.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    line-height: 1.2;
+    color: black;
+ }
+
+ h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6em;
+    color: darkgoldenrod;
+    text-align: center;
+ }
+
+ h2{
+     font-size: 1.3em;
+ }
+
+ h3{
+     font-size: 1.1em;
+ }
+
+ h1,h2,h3,h4,p{
+    padding:1%;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+ img{
+    width:100%;
+
+ }
+
+ .wrap{
+    background-color: white;
+    width: 98%;
+    margin: 0% 1%;
+    }
+    
+ nav ul li{
+      width:100%;
+      float:left;
+
+    }
+
+nav ul li a{
+        background: rgb(139, 150, 252);
+        color: rgb(43, 255, 0);
+        display: block;
+        padding:10px;
+        margin:2px;
+        border:1.5px solid darkslategray;
+        text-align: center;
+    }
+
+    nav{
+        width:100%;
+        overflow: auto;
+    }
+
+    header p{
+        width:100%;
+        position: absolute;
+        top:150px;
+        left:180px;
+        color: rgb(112, 54, 54);
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      nav ul li a:hover{
+          background-color: darkolivegreen;
+      }
+
+      nav ul li a:active{
+          background-color: darkorchid;
+      }
+
+      .part{
+          width:100%;
+          margin-bottom:20px;
+      }
+
+#Rodzina, #Rodzaje, #Kontakt{
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 650px) {
+        .wrap{
+            width:80%;
+            margin:0% 10%;
+        }
+    
+
+     nav{
+        width:70%;
+        margin: 0 auto;
+       }
+
+       nav ul li{
+           width:33.33333%;
+       }
+
+       .part{
+           width:50%;
+           float:left;
+       }
+
+       .proc{
+           width:50%;
+          overflow: auto;
+           
+       }
+
+    }
